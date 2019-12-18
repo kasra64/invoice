@@ -1,0 +1,27 @@
+{
+  "name": "kasra-api",
+  "version": "1.0.0",
+  "description": "Test Api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "api",
+    "fastify"
+  ],
+  "author": "Kasra Azhir",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^2.11.0",
+    "fastify-autoload": "^1.1.0",
+    "fastify-cli": "^0.27.0",
+    "fastify-cors": "next",
+    "fastify-helmet": "^3.0.0",
+    "fastify-jwt": "^0.8.0",
+    "fastify-mongodb": "^1.0.0",
+    "fastify-plugin": "^1.4.0",
+    "request": "^2.88.0"
+  }
+}
